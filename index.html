@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Earth Plants</title>
+    <!-- Tailwind & Daisyui link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- Navbar Start  -->
+     <div class="navbar bg-[#15803D] shadow-sm px-20 py-5">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <h1>Green Earth</h1>
+          </div>
+        </div>
+        <h1 class="text-[#FFFFFF] text-2xl font-bold">Green Earth</h1>
+      </div>
+      <div class="navbar-center text-[#FFFFFF] hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>About</a></li>
+          <li><a>Gallery</a></li>
+          <li><a>Plant a Tree</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <button class="btn bg-[#facc15] rounded-full text-[#15803D]">Plant a Tree</button>
+      </div>
+     </div>
+
+    <!-- Banner Section  -->
+
+    <div class="bg-green-200 flex items-center justify-between px-8 ">
+      <div class="left">
+        <img src="./assets/hero-leaf1.png" alt="">
+      </div>
+      <div class="middle text-center justify-center items-center gap-4">
+        <h1 class="text-black font-bold text-5xl">Plant a Tree, Grow a Future</h1>
+        <p class="text-gray-700 mt-4">Join our mission to plant 1 million trees and make the Earth greener for future <br> generations.</p>
+        <button class="btn bg-[#facc15] rounded-full text-[#15803D] mt-4">Plant a Tree</button>
+      </div>
+      <div class="right">
+        <img src="./assets/hero-leaf2.png" alt="">
+      </div>
+    </div>
+
+    <!-- Choose Your Trees  -->
+    <section class="bg-green-50">
+      <div class="trees-container"></div>
+
+
+
+
+      <!-- About Section  -->
+      <div class="w-1/2 mx-auto text-center pt-20 pb-20">
+          <h1 class="text-4xl font-bold mb-10">About the Campaign</h1>
+          <div class="flex text-left gap-8">
+            <!-- Image -->
+            <img src="./assets/about.png" alt="">
+
+            <!-- Text + List -->
+            <div class="flex flex-col justify-center gap-y-10">
+              <p>
+                Green Earth is a global tree plantation initiative dedicated to fighting climate change. 
+                Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, 
+                you help restore forests, create habitats for wildlife, and combat global warming.
+              </p>
+              <ul class="list-disc list-inside space-y-2">
+                <li>Restoration of natural habitats</li>
+                <li>Combating global warming</li>
+                <li>Creating habitats for wildlife</li>
+              </ul>
+            </div>
+          </div>
+      </div>
+
+    </section>
+
+    <!-- Counter Section  -->
+      <div class="bg-[#CFF0DC] flex flex-col items-center py-12">
+        <div class="mb-8 text-center">
+          <h2 class="text-3xl font-bold">Our Impact</h2>
+        </div>
+
+        <div class="counter-container flex flex-col md:flex-row gap-6 md:gap-8 w-full max-w-6xl px-4">
+            <div class="bg-white text-center flex-1 py-8 rounded-lg shadow">
+              <h2 class="text-2xl font-bold">500K+</h2>
+              <p class="mt-2 text-gray-600">Trees Planted</p>
+            </div>
+
+            <div class="bg-white text-center flex-1 py-8 rounded-lg shadow">
+              <h2 class="text-2xl font-bold">120+</h2>
+              <p class="mt-2 text-gray-600">Communities Involved</p>
+            </div>
+
+            <div class="bg-white text-center flex-1 py-8 rounded-lg shadow">
+              <h2 class="text-2xl font-bold">30+</h2>
+              <p class="mt-2 text-gray-600">Countries Reached</p>
+            </div>
+          </div>
+      </div>
+
+</body>
+</html>
