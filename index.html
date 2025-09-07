@@ -13,9 +13,6 @@
      <div class="navbar bg-[#15803D] shadow-sm px-20 py-5">
       <div class="navbar-start">
         <div class="dropdown">
-          <!-- <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <h1>Green Earth</h1>
-          </div> -->
         </div>
         <h1 class="text-[#FFFFFF] text-2xl font-bold">Green Earth</h1>
       </div>
@@ -33,36 +30,149 @@
 
     <!-- Banner Section  -->
 
-    <div class="bg-green-200 flex items-center justify-between px-8 ">
-      <div class="left">
-        <img src="./assets/hero-leaf1.png" alt="">
-      </div>
-      <div class="middle text-center justify-center items-center gap-4">
-        <h1 class="text-black font-bold text-5xl">Plant a Tree, Grow a Future</h1>
-        <p class="text-gray-700 mt-4">Join our mission to plant 1 million trees and make the Earth greener for future <br> generations.</p>
-        <button class="btn bg-[#facc15] rounded-full text-[#15803D] mt-4">Plant a Tree</button>
-      </div>
-      <div class="right">
-        <img src="./assets/hero-leaf2.png" alt="">
-      </div>
+    <div class="bg-green-200 flex flex-col md:flex-row items-center justify-between px-6 md:px-12 py-10 gap-6">
+  <!-- Left Image -->
+        <div class="left w-1/3 hidden md:block">
+          <img src="./assets/hero-leaf1.png" alt="Leaf Left" class="w-full h-auto" />
+        </div>
+
+        <!-- Middle Text -->
+        <div class="middle text-center flex flex-col justify-center items-center gap-4 max-w-xl">
+          <h1 class="text-black font-bold text-3xl md:text-4xl leading-snug">
+            Plant a Tree, Grow a Future
+          </h1>
+          <p class="text-gray-700 mt-2 md:mt-4 text-sm md:text-base">
+            Join our mission to plant 1 million trees and make the Earth greener for future
+            generations.
+          </p>
+          <button class="btn bg-[#facc15] rounded-full text-[#15803D] mt-4 px-6 py-2 font-semibold">
+            Plant a Tree
+          </button>
+        </div>
+
+        <!-- Right Image -->
+        <div class="right w-1/3 hidden md:block">
+          <img src="./assets/hero-leaf2.png" alt="Leaf Right" class="w-full h-auto" />
+        </div>
     </div>
+
 
     <!-- Choose Your Trees  -->
     <section class="bg-green-50">
-      <div class="trees-container"></div>
+       <div class="">
+          <h1 class="font-bold pt-24 pb-8 text-center text-4xl text-[#1F2937]">Choose Your Trees</h1>
+        </div>
+      <div class="trees-container flex  justify-between mx-auto pl-30 pr-30">
+        <div id="catagories" class=" catagories-container flex flex-col w-2/12">
+            
+        </div>
+        <div class="card-container w-8/12 grid grid-cols-3 gap-4">
+           <div id="main-card" class="card bg-base-100  shadow-sm">
+              <figure>
+                <img class="p-4"
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Card Title</h2>
+                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-base-100  shadow-sm">
+              <figure>
+                <img class="p-4"
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Card Title</h2>
+                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-base-100  shadow-sm">
+              <figure>
+                <img class="p-4"
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Card Title</h2>
+                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-base-100  shadow-sm">
+              <figure>
+                <img class="p-4"
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Card Title</h2>
+                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-base-100  shadow-sm">
+              <figure>
+                <img class="p-4"
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Card Title</h2>
+                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="card bg-base-100 shadow-sm">
+              <figure>
+                <img class="p-4"
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Card Title</h2>
+                <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                <div class="card-actions justify-end">
+                  <button class="btn btn-primary">Buy Now</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="yor-card-container w-2/12 bg-white ml-5">
+          <h1 class="text-black pl-4 pt-4 font-semibold text-lg">Your Cart</h1>
+        </div>
+
+      </div> 
+
+
 
 
 
 
       <!-- About Section  -->
-      <div class="w-1/2 mx-auto text-center pt-20 pb-20">
+      <div class="w-11/12 md:w-3/4 mx-auto text-center pt-20 pb-20">
           <h1 class="text-4xl font-bold mb-10">About the Campaign</h1>
-          <div class="flex text-left gap-8">
+
+          <div class="flex flex-col md:flex-row text-left gap-8">
             <!-- Image -->
-            <img src="./assets/about.png" alt="">
+            <img src="./assets/about.png" alt="About Campaign" class="w-full md:w-1/2 rounded-lg" />
 
             <!-- Text + List -->
-            <div class="flex flex-col justify-center gap-y-10">
+            <div class="flex flex-col justify-center gap-y-6 w-full md:w-1/2">
               <p>
                 Green Earth is a global tree plantation initiative dedicated to fighting climate change. 
                 Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, 
@@ -76,6 +186,7 @@
             </div>
           </div>
       </div>
+
 
     </section>
 
@@ -105,23 +216,23 @@
 
       <!-- form Section  -->
 
-      <div class="bg-[#166534] p-10 text-white">
-  <div>
-    <h2 class="text-2xl font-bold text-center pb-8">Plant a Tree Today</h2>
-  </div>
+    <div class="bg-[#166534] p-10 text-white">
+        <div>
+          <h2 class="text-2xl font-bold text-center pb-8">Plant a Tree Today</h2>
+        </div>
 
-  <div class="flex flex-col gap-5 p-10 bg-[#15803d] mx-auto items-center rounded-lg max-w-md">
-    <input type="text" placeholder="Your Name" class="input input-bordered w-full text-[#1F2937]"/>
-    <input type="text" placeholder="Your Email Address" class="text-[#1F2937] input input-bordered w-full" />
-    <select class="select select-ghost text-black bg-white w-full">
-        <option disabled selected>Number of Trees</option>
-        <option>Inter</option>
-        <option>Poppins</option>
-        <option>Raleway</option>
-    </select>
-    <button class="bg-[#facc15] rounded-full py-2 w-full text-[#15803D] cursor-pointer">Donate Now</button>
-  </div>
-</div>
+        <div class="flex flex-col gap-5 p-10 bg-[#15803d] mx-auto items-center rounded-lg max-w-md">
+          <input type="text" placeholder="Your Name" class="input input-bordered w-full text-[#1F2937]"/>
+          <input type="text" placeholder="Your Email Address" class="text-[#1F2937] input input-bordered w-full" />
+          <select class="select select-ghost text-black bg-white w-full">
+              <option disabled selected>Number of Trees</option>
+              <option>Inter</option>
+              <option>Poppins</option>
+              <option>Raleway</option>
+          </select>
+          <button class="bg-[#facc15] rounded-full py-2 w-full text-[#15803D] cursor-pointer">Donate Now</button>
+        </div>
+    </div>
 
 
 
@@ -132,5 +243,8 @@
           <p class="text-white">© 2025 Green Earth. All Rights Reserved.</p>
         </aside>
       </footer>
+
+
+      <script src="./script.js"></script>
 </body>
 </html>
