@@ -23,6 +23,7 @@ const loadeCatagorie = () => {
             .then((plants) => allDisplayLessonUi(plants.plants));
 
    };
+  
    const allDisplayLessonUi = (lessons) => {
     const mainContainer = document.getElementById("main-card");
     mainContainer.innerHTML = ""; 
@@ -31,7 +32,7 @@ const loadeCatagorie = () => {
         mainContainer.innerHTML += `
             <div class="bg-white card p-4 shadow-xl">
                 <img src="${lesson.image}" alt="${lesson.name}" class="w-full h-48 object-cover rounded-lg my-2" />
-                <h2 class="font-semi-bold text-2xl cursor-pointer">${lesson.name}</h2>
+                <h2 onclick="my_modal_1.showModal()" class="font-semi-bold text-2xl cursor-pointer">${lesson.name}</h2>
                 <p>${lesson.description}</p>
                 <div class="flex justify-between mt-2 items-center">
                  <button class="py-1 px-4 bg-[#DCFCE7] rounded-full text-[#15803D]">${lesson.category}</button>
@@ -40,12 +41,12 @@ const loadeCatagorie = () => {
                     <span class="text-xl text-black">${lesson.price}</span>
                 </h2>
                 </div>
-                <button class="bg-[#15803D] rounded-full py-2 w-full text-white cursor-pointer mt-2">Add to Cart</button>
+                <button class="add-to-cart-btn bg-[#15803D] rounded-full py-2 w-full text-white cursor-pointer mt-2">Add to Cart</button>
             </div>
         `;
     }
 };
-   
+ 
    displayLesson();
     loadeCatagorie();
 
